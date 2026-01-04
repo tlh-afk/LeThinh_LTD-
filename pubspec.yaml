@@ -1,0 +1,41 @@
+name: lethinh
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Biểu tượng (icons) cho ứng dụng
+  cupertino_icons: ^1.0.8
+
+  # Để thực hiện các yêu cầu HTTP đến backend API
+  http: ^1.2.1
+
+  # Quản lý trạng thái của ứng dụng (ví dụ: trạng thái đăng nhập)
+  provider: ^6.1.2
+
+  # Để lưu trữ an toàn JWT token (token đăng nhập)
+  flutter_secure_storage: ^9.2.2
+
+  # Để giải mã JWT và lấy vai trò (role) cũng như thông tin người dùng từ token
+  jwt_decode: ^0.3.1
+
+  # Thư viện để hiển thị giao diện lịch
+  table_calendar: ^3.1.2
+  
+  # Thư viện để định dạng ngày tháng
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
